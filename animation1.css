@@ -1,0 +1,28 @@
+.parent{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: bisque;
+    animation-name: an;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes an {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        top: 0;
+        left:300px ;
+        background-color: red;
+        scale: 3;
+    }
+    100%{
+        top: 200px;
+        left:300px;
+        background-image: url(car\ 2.jpg);
+        scale: 4;
+        rotate: 20deg;
+    }
+}
